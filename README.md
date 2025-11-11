@@ -27,6 +27,7 @@
 | Основы пентестинга | Средний | [Процесс взлома](./topics/hacking-process.md) | Высокий |
 | Основы пентестинга | Продвинутый | [Сохранение доступа](./topics/maintaining-access.md) | Высокий |
 | Основы пентестинга | Продвинутый | [Заметание следов](./topics/clearing-tracks.md) | Высокий |
+| Основы пентестинга | Средний | [OWASP (Open Web Application Security Project)](./topics/owasp.md) | Высокий |
 | Анонимность и приватность | Средний | [Анонимность и автоматическая смена IP](./topics/anonymity-ip-rotation.md) | Высокий |
 | Анонимность и приватность | Средний | [Tor сеть](./topics/tor-network.md) | Высокий |
 | Анонимность и приватность | Средний | [Настройка прокси (SOCKS5)](./topics/proxy-socks5.md) | Высокий |
@@ -94,6 +95,9 @@
 | Веб-безопасность | Продвинутый | [Уязвимость XXE (External XML Entity)](./topics/xxe-vulnerability.md) | Высокий |
 | Веб-безопасность | Продвинутый | [Code Injection](./topics/code-injection.md) | Высокий |
 | Веб-безопасность | Продвинутый | [Внедрение webshell/reverse shell в CMS](./topics/webshell-reverse-shell-cms.md) | Высокий |
+| Веб-безопасность | Продвинутый | [DDoS-атаки](./topics/ddos-attacks.md) | Высокий |
+| Веб-безопасность | Средний | [Утечки данных](./topics/data-breaches.md) | Высокий |
+| Веб-безопасность | Средний | [Социальная инженерия](./topics/social-engineering.md) | Высокий |
 | Веб-разработка | Основы | [Веб-сайты и серверы](./topics/websites-servers.md) | Средний |
 | Веб-разработка | Основы | [Фронтенд и бэкенд](./topics/frontend-backend.md) | Средний |
 | Веб-разработка | Основы | [HTTP-запросы и DNS](./topics/http-dns.md) | Высокий |
@@ -143,6 +147,8 @@
 | [SQLite Browser / sqlite3](./tools/sqlite.md) | Средний | Анализ баз данных: извлечение хэшей, пользователей из .db файлов. |
 | [Hashcat / John the Ripper](./tools/hashcat-john.md) | Средний | Взлом паролей: брутфорс SHA-1 хэшей или passphrase от SSH-ключей. |
 | [Burp Suite](./tools/burp-suite.md) | Продвинутый | Веб-эксплуатация: изменение POST/GET запросов, поиск уязвимостей в формах, брутфорс логинов, анализ LFI. |
+| [OWASP ZAP](./tools/owasp-zap.md) | Средний | Веб-безопасность: автоматическое сканирование веб-приложений на уязвимости, обнаружение SQL-инъекций и XSS. |
+| [Hatch](./tools/hatch.md) | Средний | Веб-эксплуатация: инструмент для брутфорса веб-форм, создание макета веб-сайта для автоматического подбора паролей. |
 | [Gobuster / Dirbuster / ffuf](./tools/gobuster-dirbuster-ffuf.md) | Средний | Разведка: поиск скрытых файлов/путей на веб-сервере, поиск поддоменов. |
 | [Wappalyzer / WhatWeb](./tools/wappalyzer-whatweb.md) | Средний | Веб-анализ: определение используемых технологий на сайте (CMS, фреймворки). |
 | [Wayback Machine](./tools/wayback-machine.md) | Средний | OSINT: поиск старых версий сайтов и удаленного контента в веб-архивах. |
