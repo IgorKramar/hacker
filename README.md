@@ -22,6 +22,8 @@
 | Основы пентестинга | Основы | [Настройка сетей в VirtualBox](./topics/virtualbox-networking.md) | Средний |
 | Основы пентестинга | Средний | [CTF (Capture The Flag) соревнования](./topics/ctf-competitions.md) | Высокий |
 | Основы пентестинга | Продвинутый | [Реверс-инжиниринг (Reverse Engineering)](./topics/reverse-engineering.md) | Высокий |
+| Основы пентестинга | Продвинутый | [Эксплойт Eternal Blue](./topics/eternal-blue-exploit.md) | Высокий |
+| Основы пентестинга | Продвинутый | [Meterpreter](./topics/meterpreter.md) | Высокий |
 | Анонимность и приватность | Средний | [Анонимность и автоматическая смена IP](./topics/anonymity-ip-rotation.md) | Высокий |
 | Анонимность и приватность | Средний | [Tor сеть](./topics/tor-network.md) | Высокий |
 | Анонимность и приватность | Средний | [Настройка прокси (SOCKS5)](./topics/proxy-socks5.md) | Высокий |
