@@ -28,15 +28,20 @@
 | Сканирование и разведка | Основы | [Сканирование портов (port scanning)](./topics/port-scanning.md) | Высокий |
 | Сканирование и разведка | Средний | [Полное сканирование портов](./topics/full-port-scanning.md) | Средний |
 | Сканирование и разведка | Средний | [Сканирование локальной сети](./topics/network-scanning.md) | Высокий |
+| Сканирование и разведка | Средний | [Захват и анализ сетевого трафика](./topics/network-traffic-capture.md) | Высокий |
 | OSINT и разведка | Средний | [OSINT (Open Source Intelligence)](./topics/osint.md) | Высокий |
+| OSINT и разведка | Средний | [DNS анализ](./topics/dns-analysis.md) | Высокий |
 | OSINT и разведка | Средний | [Поиск уязвимых устройств в интернете](./topics/internet-device-scanning.md) | Высокий |
 | OSINT и разведка | Средний | [Анализ беспроводных сетей](./topics/wireless-network-analysis.md) | Средний |
 | OSINT и разведка | Средний | [Поиск email-адресов (Email Enumeration)](./topics/email-enumeration.md) | Средний |
 | OSINT и разведка | Средний | [Базы данных уязвимостей (CVE)](./topics/cve-databases.md) | Высокий |
 | OSINT и разведка | Средний | [Анализ SSL/TLS сертификатов](./topics/ssl-tls-certificate-analysis.md) | Средний |
 | OSINT и разведка | Средний | [Поиск исходного кода в репозиториях](./topics/source-code-search.md) | Средний |
+| OSINT и разведка | Средний | [Поиск поддоменов](./topics/subdomain-enumeration.md) | Высокий |
+| OSINT и разведка | Средний | [Веб-архивы (Wayback Machine)](./topics/web-archives.md) | Средний |
 | Веб-безопасность | Основы | [Просмотр исходного кода страниц](./topics/source-code-analysis.md) | Высокий |
 | Веб-безопасность | Основы | [Local File Inclusion (LFI)](./topics/local-file-inclusion.md) | Высокий |
+| Веб-безопасность | Средний | [Веб-анализ технологий](./topics/web-technology-analysis.md) | Высокий |
 | Веб-безопасность | Средний | [Поиск конфигурационных файлов](./topics/config-files-discovery.md) | Высокий |
 | Веб-безопасность | Средний | [XSS (Cross-Site Scripting)](./topics/xss-vulnerability.md) | Высокий |
 | Веб-безопасность | Средний | [SQL Injection](./topics/sql-injection.md) | Высокий |
@@ -45,6 +50,7 @@
 | Веб-безопасность | Средний | [Работа с базами данных (SQLite)](./topics/sqlite-databases.md) | Средний |
 | Веб-безопасность | Средний | [Взлом хэшей паролей](./topics/password-hash-cracking.md) | Высокий |
 | Веб-безопасность | Средний | [Брутфорс веб-форм (логин/пароль)](./topics/web-form-bruteforce.md) | Высокий |
+| Веб-безопасность | Средний | [Брутфорс паролей](./topics/password-bruteforce.md) | Высокий |
 | Веб-безопасность | Средний | [Защита паролей](./topics/password-security.md) | Высокий |
 | Веб-безопасность | Средний | [Валидация и санитизация пользовательского ввода](./topics/input-validation-sanitization.md) | Высокий |
 | Веб-безопасность | Средний | [Защита кукисов (Cookies)](./topics/cookie-security.md) | Средний |
@@ -71,6 +77,7 @@
 | Доступ и эксплуатация | Продвинутый | [Эксплуатация CI/CD систем (Jenkins)](./topics/jenkins-exploitation.md) | Высокий |
 | Доступ и эксплуатация | Продвинутый | [Работа с эксплойтами в Metasploit](./topics/metasploit-exploitation.md) | Высокий |
 | Доступ и эксплуатация | Продвинутый | [Компиляция эксплойтов](./topics/exploit-compilation.md) | Высокий |
+| Доступ и эксплуатация | Продвинутый | [Закрепление в системе и скрытие следов](./topics/post-exploitation.md) | Высокий |
 | Privilege Escalation | Средний | [Поиск SUID-бинарников](./topics/suid-binaries.md) | Высокий |
 | Privilege Escalation | Средний | [Enumeration с помощью скриптов (LinPEAS)](./topics/linpeas-enumeration.md) | Высокий |
 | Privilege Escalation | Продвинутый | [Анализ бинарников и path hijacking](./topics/binary-analysis-path-hijacking.md) | Высокий |
@@ -84,14 +91,22 @@
 |------------|---------|---------------|
 | [Nmap](./tools/nmap.md) | Основы | Разведка: обнаружение открытых портов и сервисов на цели. |
 | [Netdiscover](./tools/netdiscover.md) | Средний | Разведка: сканирование локальной сети для обнаружения активных хостов и их IP-адресов. |
+| [Whois](./tools/whois.md) | Средний | OSINT: получение информации о домене (владелец, контакты, дата регистрации). |
+| [Dig](./tools/dig.md) | Средний | OSINT: изучение DNS записей (IP-адреса, поддомены, MX, TXT записи). |
+| [Hping3](./tools/hping3.md) | Средний | Разведка: скрытые ICMP-пинги, сканирование портов, тестирование файрволов. |
 | [SQLite Browser / sqlite3](./tools/sqlite.md) | Средний | Анализ баз данных: извлечение хэшей, пользователей из .db файлов. |
 | [Hashcat / John the Ripper](./tools/hashcat-john.md) | Средний | Взлом паролей: брутфорс SHA-1 хэшей или passphrase от SSH-ключей. |
 | [Burp Suite](./tools/burp-suite.md) | Продвинутый | Веб-эксплуатация: изменение POST/GET запросов, поиск уязвимостей в формах, брутфорс логинов, анализ LFI. |
-| [Gobuster / Dirbuster / ffuf](./tools/gobuster-dirbuster-ffuf.md) | Средний | Разведка: поиск скрытых файлов/путей на веб-сервере. |
+| [Gobuster / Dirbuster / ffuf](./tools/gobuster-dirbuster-ffuf.md) | Средний | Разведка: поиск скрытых файлов/путей на веб-сервере, поиск поддоменов. |
+| [Wappalyzer / WhatWeb](./tools/wappalyzer-whatweb.md) | Средний | Веб-анализ: определение используемых технологий на сайте (CMS, фреймворки). |
+| [Wayback Machine](./tools/wayback-machine.md) | Средний | OSINT: поиск старых версий сайтов и удаленного контента в веб-архивах. |
 | [OpenSSH / ssh](./tools/ssh.md) | Основы | Доступ: вход на сервер после получения ключей. |
 | [Find](./tools/find.md) | Средний | Privilege escalation: поиск SUID/SGID бинарников. |
 | [Strings / objdump](./tools/strings-objdump.md) | Продвинутый | Анализ: понимание поведения бинарника. |
 | [Netcat (nc)](./tools/netcat.md) | Средний | Реверс-шелл: прослушка входящих соединений для получения shell. |
+| [TCPdump](./tools/tcpdump.md) | Средний | Анализ: захват и сохранение сетевого трафика для дальнейшего анализа. |
+| [Tshark](./tools/tshark.md) | Средний | Анализ: CLI версия Wireshark для захвата и анализа сетевого трафика. |
+| [Hydra](./tools/hydra.md) | Средний | Взлом: брутфорс паролей для SSH, FTP, веб-форм авторизации. |
 | [Chmod / Chown](./tools/chmod-chown.md) | Основы | Privilege escalation: добавление SUID к bash для рут-доступа. |
 | [Bash](./tools/bash.md) | Основы | Эксплуатация: создание кастомных скриптов для path hijacking; написание простых скриптов. |
 | [Excel Viewer / LibreOffice](./tools/excel-libreoffice.md) | Средний | Веб-эксплуатация: тестирование XXE в Excel-документах. |
