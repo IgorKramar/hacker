@@ -88,6 +88,16 @@
 | Веб-безопасность | Средний | [XSS (Cross-Site Scripting)](./topics/xss-vulnerability.md) | Высокий |
 | Веб-безопасность | Средний | [SQL Injection](./topics/sql-injection.md) | Высокий |
 | Веб-безопасность | Средний | [CSRF (Cross-Site Request Forgery)](./topics/csrf-vulnerability.md) | Высокий |
+| Веб-безопасность | Средний | [Массовое задание (Mass Assignment)](./topics/mass-assignment.md) | Высокий |
+| Веб-безопасность | Средний | [Небезопасные прямые ссылки на объекты (IDOR)](./topics/idor-vulnerability.md) | Высокий |
+| Веб-безопасность | Средний | [Раскрытие информации](./topics/information-disclosure.md) | Высокий |
+| Веб-безопасность | Средний | [Неправильная конфигурация CORS](./topics/cors-misconfiguration.md) | Высокий |
+| Веб-безопасность | Продвинутый | [Внедрение команд](./topics/command-injection.md) | Высокий |
+| Веб-безопасность | Продвинутый | [Внедрение XPath](./topics/xpath-injection.md) | Высокий |
+| Веб-безопасность | Средний | [Уязвимости открытого перенаправления](./topics/open-redirect.md) | Высокий |
+| Веб-безопасность | Продвинутый | [Атака с обходом пути](./topics/path-traversal.md) | Высокий |
+| Веб-безопасность | Продвинутый | [Небезопасная десериализация](./topics/insecure-deserialization.md) | Высокий |
+| Веб-безопасность | Средний | [Уязвимости GraphQL](./topics/graphql-vulnerabilities.md) | Высокий |
 | Веб-безопасность | Средний | [Фазинг (fuzzing) эндпоинтов](./topics/fuzzing-endpoints.md) | Высокий |
 | Веб-безопасность | Средний | [Работа с базами данных (SQLite)](./topics/sqlite-databases.md) | Средний |
 | Веб-безопасность | Средний | [Взлом хэшей паролей](./topics/password-hash-cracking.md) | Высокий |
@@ -167,6 +177,8 @@
 | [dex2jar](./tools/dex2jar.md) | Средний | Статический анализ: преобразование DEX файлов в JAR для анализа кода Android приложений. |
 | [Jadx](./tools/jadx.md) | Средний | Статический анализ: декомпиляция APK в читаемый Java код с графическим интерфейсом. |
 | [Bettercap](./tools/bettercap.md) | Продвинутый | Атаки на локальные сети: ARP spoofing, DNS spoofing, перехват трафика, обнаружение устройств в сети. |
+| [Perpsuit](./tools/perpsuit.md) | Средний | Веб-безопасность: перехват и анализ HTTP-запросов, модификация запросов для тестирования уязвимостей. |
+| [Skipfish](./tools/skipfish.md) | Средний | Веб-безопасность: автоматическое сканирование веб-приложений для поиска скрытых функций и эндпоинтов. |
 | [Gobuster / Dirbuster / ffuf](./tools/gobuster-dirbuster-ffuf.md) | Средний | Разведка: поиск скрытых файлов/путей на веб-сервере, поиск поддоменов. |
 | [Wappalyzer / WhatWeb](./tools/wappalyzer-whatweb.md) | Средний | Веб-анализ: определение используемых технологий на сайте (CMS, фреймворки). |
 | [Wayback Machine](./tools/wayback-machine.md) | Средний | OSINT: поиск старых версий сайтов и удаленного контента в веб-архивах. |
