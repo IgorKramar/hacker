@@ -53,6 +53,7 @@
 | OSINT и разведка | Средний | [Анализ беспроводных сетей](./topics/wireless-network-analysis.md) | Средний |
 | Беспроводные сети | Средний | [Wardriving (Вардинг)](./topics/wardriving.md) | Средний |
 | Беспроводные сети | Продвинутый | [Перехват и расшифровка Wi-Fi handshake](./topics/wifi-handshake-capture.md) | Высокий |
+| Беспроводные сети | Продвинутый | [Атака Evil Twin](./topics/evil-twin-attack.md) | Высокий |
 | OSINT и разведка | Средний | [Поиск email-адресов (Email Enumeration)](./topics/email-enumeration.md) | Средний |
 | OSINT и разведка | Средний | [Базы данных уязвимостей (CVE)](./topics/cve-databases.md) | Высокий |
 | OSINT и разведка | Средний | [Анализ SSL/TLS сертификатов](./topics/ssl-tls-certificate-analysis.md) | Средний |
@@ -134,6 +135,7 @@
 | [ExploitDB](./tools/exploitdb.md) | Средний | Эксплуатация: база данных эксплойтов и уязвимостей для поиска эксплойтов. |
 | [Stool](./tools/stool.md) | Продвинутый | Социальная инженерия: создание фейковых сайтов, QR-кодов, фишинговых атак (только для обучения). |
 | [DNSN](./tools/dnsn.md) | Средний | OSINT: поиск информации и нумерация DNS-серверов, получение данных о субдоменах. |
+| [Arachni](./tools/arachni.md) | Продвинутый | Беспроводные сети: проведение атак на Wi-Fi (Evil Twin, создание поддельных точек доступа) для тестирования безопасности. |
 | [Chmod / Chown](./tools/chmod-chown.md) | Основы | Privilege escalation: добавление SUID к bash для рут-доступа. |
 | [Bash](./tools/bash.md) | Основы | Эксплуатация: создание кастомных скриптов для path hijacking; написание простых скриптов. |
 | [Excel Viewer / LibreOffice](./tools/excel-libreoffice.md) | Средний | Веб-эксплуатация: тестирование XXE в Excel-документах. |
