@@ -18,6 +18,8 @@
 | Основы программирования | Средний | [Паттерны проектирования](./topics/design-patterns.md) | Средний |
 | Основы программирования | Средний | [Синхронность, многопоточность и параллелизм](./topics/synchronicity-multithreading-parallelism.md) | Средний |
 | Основы пентестинга | Основы | [Подключение к цели через VPN](./topics/connecting-to-target-via-vpn.md) | Высокий |
+| Основы пентестинга | Основы | [Настройка виртуальных машин для пентестинга](./topics/virtual-machine-setup.md) | Высокий |
+| Основы пентестинга | Основы | [Настройка сетей в VirtualBox](./topics/virtualbox-networking.md) | Средний |
 | Анонимность и приватность | Средний | [Анонимность и автоматическая смена IP](./topics/anonymity-ip-rotation.md) | Высокий |
 | Анонимность и приватность | Средний | [Tor сеть](./topics/tor-network.md) | Высокий |
 | Анонимность и приватность | Средний | [Настройка прокси (SOCKS5)](./topics/proxy-socks5.md) | Высокий |
@@ -63,6 +65,7 @@
 | Доступ и эксплуатация | Средний | [Взлом passphrase ключей](./topics/ssh-passphrase-cracking.md) | Средний |
 | Доступ и эксплуатация | Продвинутый | [Проброс портов (port forwarding/tunneling)](./topics/port-forwarding.md) | Высокий |
 | Доступ и эксплуатация | Продвинутый | [Эксплуатация CI/CD систем (Jenkins)](./topics/jenkins-exploitation.md) | Высокий |
+| Доступ и эксплуатация | Продвинутый | [Работа с эксплойтами в Metasploit](./topics/metasploit-exploitation.md) | Высокий |
 | Privilege Escalation | Средний | [Поиск SUID-бинарников](./topics/suid-binaries.md) | Высокий |
 | Privilege Escalation | Средний | [Enumeration с помощью скриптов (LinPEAS)](./topics/linpeas-enumeration.md) | Высокий |
 | Privilege Escalation | Продвинутый | [Анализ бинарников и path hijacking](./topics/binary-analysis-path-hijacking.md) | Высокий |
@@ -103,6 +106,8 @@
 | [Full Hunt](./tools/full-hunt.md) | Средний | OSINT: сканирование веб-приложений на уязвимости, автоматические отчёты и рекомендации. |
 | [CodeCrawler](./tools/codecrawler.md) | Средний | OSINT: поиск исходного кода по ключевым словам в публичных репозиториях. |
 | [Brakeman](./tools/brakeman.md) | Средний | Веб-безопасность: статический анализатор безопасности для Rails приложений, обнаружение XSS, SQL Injection, CSRF. |
+| [Kali Linux](./tools/kali-linux.md) | Средний | Пентестинг: дистрибутив Linux с предустановленными инструментами для кибербезопасности и пентестинга. |
+| [VirtualBox](./tools/virtualbox.md) | Основы | Пентестинг: создание виртуальных машин для безопасной практики пентестинга в изолированной среде. |
 | [Git](./tools/git.md) | Основы | DevOps: управление версиями кода, работа с репозиториями для CI/CD. |
 | [Docker](./tools/docker.md) | Средний | DevOps: контейнеризация приложений, автоматизация деплоя, тестирование в изолированных средах. |
 

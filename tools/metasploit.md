@@ -7,10 +7,13 @@ Metasploit Framework — комплексный инструмент для эк
 Продвинутый
 
 ## Примеры использования
-- Запуск msfconsole: `msfconsole`
+- Запуск msfconsole: `msfconsole` (можно без root прав)
 - Настройка listener: `use exploit/multi/handler`
 - Поиск эксплойтов: `search <vulnerability>`
 - Брутфорс SSH: `use auxiliary/scanner/ssh/ssh_login`
+- Сканирование портов: использование модуля Port Scanner
+- Настройка параметров эксплойта: установка IP-адреса цели, портов
+- Использование эксплойтов: запуск Ruby-скриптов для эксплуатации уязвимостей
 
 ## Ресурсы для изучения
 - [Metasploit Documentation](https://docs.metasploit.com/)
