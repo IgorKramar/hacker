@@ -86,6 +86,7 @@
 | Доступ и эксплуатация | Средний | [Чтение приватных ключей (SSH)](./topics/ssh-private-key-reading.md) | Средний |
 | Доступ и эксплуатация | Средний | [Взлом passphrase ключей](./topics/ssh-passphrase-cracking.md) | Средний |
 | Доступ и эксплуатация | Средний | [Доступ через FTP](./topics/ftp-access.md) | Средний |
+| Безопасность серверов | Средний | [Защита SSH сервера](./topics/ssh-server-security.md) | Высокий |
 | Доступ и эксплуатация | Продвинутый | [Проброс портов (port forwarding/tunneling)](./topics/port-forwarding.md) | Высокий |
 | Доступ и эксплуатация | Продвинутый | [Эксплуатация CI/CD систем (Jenkins)](./topics/jenkins-exploitation.md) | Высокий |
 | Доступ и эксплуатация | Продвинутый | [Работа с эксплойтами в Metasploit](./topics/metasploit-exploitation.md) | Высокий |
