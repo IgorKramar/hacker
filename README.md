@@ -42,6 +42,7 @@
 | OSINT и разведка | Средний | [Работа с метаданными медиафайлов](./topics/media-metadata-analysis.md) | Высокий |
 | OSINT и разведка | Средний | [Геолокация и анализ местоположения](./topics/geolocation-analysis.md) | Средний |
 | OSINT и разведка | Средний | [Подготовка OSINT отчётов](./topics/osint-reporting.md) | Высокий |
+| OSINT и разведка | Средний | [Поиск и анализ документов (Document OSINT)](./topics/document-osint.md) | Высокий |
 | OSINT и разведка | Средний | [DNS анализ](./topics/dns-analysis.md) | Высокий |
 | OSINT и разведка | Средний | [Поиск уязвимых устройств в интернете](./topics/internet-device-scanning.md) | Высокий |
 | OSINT и разведка | Средний | [Анализ беспроводных сетей](./topics/wireless-network-analysis.md) | Средний |
