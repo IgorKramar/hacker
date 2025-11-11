@@ -57,6 +57,7 @@
 | Беспроводные сети | Средний | [Атака деаутентификации Wi-Fi](./topics/wifi-deauthentication-attack.md) | Высокий |
 | Беспроводные сети | Средний | [Атака Man-in-the-Middle (MITM)](./topics/man-in-the-middle-attack.md) | Высокий |
 | Беспроводные сети | Продвинутый | [Подмена DNS (DNS Spoofing)](./topics/dns-spoofing.md) | Высокий |
+| Беспроводные сети | Средний | [Выбор Wi-Fi адаптеров для пентестинга](./topics/wifi-adapter-selection.md) | Средний |
 | OSINT и разведка | Средний | [Поиск email-адресов (Email Enumeration)](./topics/email-enumeration.md) | Средний |
 | OSINT и разведка | Средний | [Базы данных уязвимостей (CVE)](./topics/cve-databases.md) | Высокий |
 | OSINT и разведка | Средний | [Анализ SSL/TLS сертификатов](./topics/ssl-tls-certificate-analysis.md) | Средний |
