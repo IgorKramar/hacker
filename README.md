@@ -51,6 +51,8 @@
 | OSINT и разведка | Средний | [DNS анализ](./topics/dns-analysis.md) | Высокий |
 | OSINT и разведка | Средний | [Поиск уязвимых устройств в интернете](./topics/internet-device-scanning.md) | Высокий |
 | OSINT и разведка | Средний | [Анализ беспроводных сетей](./topics/wireless-network-analysis.md) | Средний |
+| Беспроводные сети | Средний | [Wardriving (Вардинг)](./topics/wardriving.md) | Средний |
+| Беспроводные сети | Продвинутый | [Перехват и расшифровка Wi-Fi handshake](./topics/wifi-handshake-capture.md) | Высокий |
 | OSINT и разведка | Средний | [Поиск email-адресов (Email Enumeration)](./topics/email-enumeration.md) | Средний |
 | OSINT и разведка | Средний | [Базы данных уязвимостей (CVE)](./topics/cve-databases.md) | Высокий |
 | OSINT и разведка | Средний | [Анализ SSL/TLS сертификатов](./topics/ssl-tls-certificate-analysis.md) | Средний |
