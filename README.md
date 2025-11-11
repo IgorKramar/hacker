@@ -43,6 +43,11 @@
 | OSINT и разведка | Средний | [Геолокация и анализ местоположения](./topics/geolocation-analysis.md) | Средний |
 | OSINT и разведка | Средний | [Подготовка OSINT отчётов](./topics/osint-reporting.md) | Высокий |
 | OSINT и разведка | Средний | [Поиск и анализ документов (Document OSINT)](./topics/document-osint.md) | Высокий |
+| OSINT и разведка | Средний | [Пробивочные боты и агрегаторы данных](./topics/data-aggregators-bots.md) | Средний |
+| OSINT и разведка | Средний | [Анализ социальных сетей](./topics/social-media-analysis.md) | Высокий |
+| OSINT и разведка | Средний | [Государственные реестры и базы данных](./topics/government-registers.md) | Высокий |
+| OSINT и разведка | Средний | [Поиск информации об автомобилях](./topics/vehicle-investigation.md) | Средний |
+| OSINT и разведка | Средний | [Использование нейросетей и ИИ в OSINT](./topics/ai-osint.md) | Средний |
 | OSINT и разведка | Средний | [DNS анализ](./topics/dns-analysis.md) | Высокий |
 | OSINT и разведка | Средний | [Поиск уязвимых устройств в интернете](./topics/internet-device-scanning.md) | Высокий |
 | OSINT и разведка | Средний | [Анализ беспроводных сетей](./topics/wireless-network-analysis.md) | Средний |
