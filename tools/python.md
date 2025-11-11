@@ -11,6 +11,8 @@
 - Обработка исключений: `try-except` блоки.
 - Запуск HTTP-серверов: `python3 -m http.server`
 - Разработка кастомных инструментов для пентестинга.
+- Установка пакетов: `pip install package_name` (может потребоваться `--break-system-packages` на некоторых системах).
+- Работа с библиотеками для анонимности (Tornet, requests через прокси).
 
 ## Ресурсы для изучения
 - [Python Documentation](https://docs.python.org/3/)
