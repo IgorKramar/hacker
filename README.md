@@ -33,12 +33,20 @@
 | OSINT и разведка | Средний | [Поиск исходного кода в репозиториях](./topics/source-code-search.md) | Средний |
 | Веб-безопасность | Основы | [Просмотр исходного кода страниц](./topics/source-code-analysis.md) | Высокий |
 | Веб-безопасность | Основы | [Local File Inclusion (LFI)](./topics/local-file-inclusion.md) | Высокий |
+| Веб-безопасность | Средний | [XSS (Cross-Site Scripting)](./topics/xss-vulnerability.md) | Высокий |
+| Веб-безопасность | Средний | [SQL Injection](./topics/sql-injection.md) | Высокий |
+| Веб-безопасность | Средний | [CSRF (Cross-Site Request Forgery)](./topics/csrf-vulnerability.md) | Высокий |
 | Веб-безопасность | Средний | [Фазинг (fuzzing) эндпоинтов](./topics/fuzzing-endpoints.md) | Высокий |
 | Веб-безопасность | Средний | [Работа с базами данных (SQLite)](./topics/sqlite-databases.md) | Средний |
 | Веб-безопасность | Средний | [Взлом хэшей паролей](./topics/password-hash-cracking.md) | Высокий |
 | Веб-безопасность | Средний | [Брутфорс веб-форм (логин/пароль)](./topics/web-form-bruteforce.md) | Высокий |
+| Веб-безопасность | Средний | [Защита паролей](./topics/password-security.md) | Высокий |
+| Веб-безопасность | Средний | [Валидация и санитизация пользовательского ввода](./topics/input-validation-sanitization.md) | Высокий |
+| Веб-безопасность | Средний | [Защита кукисов (Cookies)](./topics/cookie-security.md) | Средний |
+| Веб-безопасность | Средний | [REST API безопасность](./topics/rest-api-security.md) | Средний |
 | Веб-безопасность | Продвинутый | [Перехват и модификация HTTP-запросов](./topics/http-request-interception.md) | Высокий |
 | Веб-безопасность | Продвинутый | [Уязвимость XXE (External XML Entity)](./topics/xxe-vulnerability.md) | Высокий |
+| Веб-безопасность | Продвинутый | [Code Injection](./topics/code-injection.md) | Высокий |
 | Веб-безопасность | Продвинутый | [Внедрение webshell/reverse shell в CMS](./topics/webshell-reverse-shell-cms.md) | Высокий |
 | Веб-разработка | Основы | [Веб-сайты и серверы](./topics/websites-servers.md) | Средний |
 | Веб-разработка | Основы | [Фронтенд и бэкенд](./topics/frontend-backend.md) | Средний |
@@ -94,6 +102,7 @@
 | [Certy](./tools/certy.md) | Средний | OSINT: база данных SSL и TLS сертификатов, выявление потенциально опасных сертификатов. |
 | [Full Hunt](./tools/full-hunt.md) | Средний | OSINT: сканирование веб-приложений на уязвимости, автоматические отчёты и рекомендации. |
 | [CodeCrawler](./tools/codecrawler.md) | Средний | OSINT: поиск исходного кода по ключевым словам в публичных репозиториях. |
+| [Brakeman](./tools/brakeman.md) | Средний | Веб-безопасность: статический анализатор безопасности для Rails приложений, обнаружение XSS, SQL Injection, CSRF. |
 | [Git](./tools/git.md) | Основы | DevOps: управление версиями кода, работа с репозиториями для CI/CD. |
 | [Docker](./tools/docker.md) | Средний | DevOps: контейнеризация приложений, автоматизация деплоя, тестирование в изолированных средах. |
 
