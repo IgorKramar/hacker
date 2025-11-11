@@ -17,6 +17,8 @@ Metasploit Framework — комплексный инструмент для эк
 - Использование Eternal Blue: `use exploit/windows/smb/ms17_010_eternalblue`
 - Настройка опций: установка r-хостов (целевой IP) и хоста для прослушивания
 - Получение Meterpreter: запуск эксплойта и получение интерактивного доступа к системе
+- Создание вредоносных APK для Android: использование msfvenom для генерации Android payloads
+- Настройка прослушивателя для Android устройств: использование multi/handler для ожидания подключения
 
 ## Ресурсы для изучения
 - [Metasploit Documentation](https://docs.metasploit.com/)
