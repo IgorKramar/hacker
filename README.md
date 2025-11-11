@@ -54,6 +54,9 @@
 | Беспроводные сети | Средний | [Wardriving (Вардинг)](./topics/wardriving.md) | Средний |
 | Беспроводные сети | Продвинутый | [Перехват и расшифровка Wi-Fi handshake](./topics/wifi-handshake-capture.md) | Высокий |
 | Беспроводные сети | Продвинутый | [Атака Evil Twin](./topics/evil-twin-attack.md) | Высокий |
+| Беспроводные сети | Средний | [Атака деаутентификации Wi-Fi](./topics/wifi-deauthentication-attack.md) | Высокий |
+| Беспроводные сети | Средний | [Атака Man-in-the-Middle (MITM)](./topics/man-in-the-middle-attack.md) | Высокий |
+| Беспроводные сети | Продвинутый | [Подмена DNS (DNS Spoofing)](./topics/dns-spoofing.md) | Высокий |
 | OSINT и разведка | Средний | [Поиск email-адресов (Email Enumeration)](./topics/email-enumeration.md) | Средний |
 | OSINT и разведка | Средний | [Базы данных уязвимостей (CVE)](./topics/cve-databases.md) | Высокий |
 | OSINT и разведка | Средний | [Анализ SSL/TLS сертификатов](./topics/ssl-tls-certificate-analysis.md) | Средний |
@@ -137,6 +140,8 @@
 | [Stool](./tools/stool.md) | Продвинутый | Социальная инженерия: создание фейковых сайтов, QR-кодов, фишинговых атак (только для обучения). |
 | [DNSN](./tools/dnsn.md) | Средний | OSINT: поиск информации и нумерация DNS-серверов, получение данных о субдоменах. |
 | [Arachni](./tools/arachni.md) | Продвинутый | Беспроводные сети: проведение атак на Wi-Fi (Evil Twin, создание поддельных точек доступа) для тестирования безопасности. |
+| [Flipper Zero](./tools/flipper-zero.md) | Продвинутый | Беспроводные сети: компактное устройство для атак на Wi-Fi (Evil Twin, деаутентификация, скрытые порталы). |
+| [Wi-Fi Pineapple](./tools/wifi-pineapple.md) | Продвинутый | Беспроводные сети: профессиональное устройство для автоматического создания Evil Twin сетей и подмены DNS. |
 | [Medusa Fisher](./tools/medusa-fisher.md) | Продвинутый | Фишинг: создание фишинговых сайтов с QR-кодами для тестирования безопасности (только для обучения). |
 | [Chmod / Chown](./tools/chmod-chown.md) | Основы | Privilege escalation: добавление SUID к bash для рут-доступа. |
 | [Bash](./tools/bash.md) | Основы | Эксплуатация: создание кастомных скриптов для path hijacking; написание простых скриптов. |
