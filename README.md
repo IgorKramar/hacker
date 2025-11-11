@@ -137,6 +137,11 @@
 | Доступ и эксплуатация | Продвинутый | [Работа с эксплойтами в Metasploit](./topics/metasploit-exploitation.md) | Высокий |
 | Доступ и эксплуатация | Продвинутый | [Компиляция эксплойтов](./topics/exploit-compilation.md) | Высокий |
 | Доступ и эксплуатация | Продвинутый | [Закрепление в системе и скрытие следов](./topics/post-exploitation.md) | Высокий |
+| Privilege Escalation | Продвинутый | [Повышение привилегий в Linux](./topics/linux-privilege-escalation.md) | Высокий |
+| Privilege Escalation | Средний | [Перечисление систем Linux](./topics/linux-enumeration.md) | Высокий |
+| Privilege Escalation | Продвинутый | [Эксплойты ядра](./topics/kernel-exploits.md) | Высокий |
+| Privilege Escalation | Продвинутый | [Псевдо-эксплойты (Sudo Exploits)](./topics/sudo-exploits.md) | Высокий |
+| Privilege Escalation | Продвинутый | [SUID-атаки](./topics/suid-attacks.md) | Высокий |
 | Privilege Escalation | Средний | [Поиск SUID-бинарников](./topics/suid-binaries.md) | Высокий |
 | Privilege Escalation | Средний | [Enumeration с помощью скриптов (LinPEAS)](./topics/linpeas-enumeration.md) | Высокий |
 | Privilege Escalation | Продвинутый | [Анализ бинарников и path hijacking](./topics/binary-analysis-path-hijacking.md) | Высокий |
@@ -179,6 +184,10 @@
 | [Bettercap](./tools/bettercap.md) | Продвинутый | Атаки на локальные сети: ARP spoofing, DNS spoofing, перехват трафика, обнаружение устройств в сети. |
 | [Perpsuit](./tools/perpsuit.md) | Средний | Веб-безопасность: перехват и анализ HTTP-запросов, модификация запросов для тестирования уязвимостей. |
 | [Skipfish](./tools/skipfish.md) | Средний | Веб-безопасность: автоматическое сканирование веб-приложений для поиска скрытых функций и эндпоинтов. |
+| [LinPEAS](./tools/linpeas.md) | Средний | Privilege escalation: автоматизированное перечисление Linux систем для поиска уязвимостей. |
+| [Linuxprivchecker](./tools/linuxprivchecker.md) | Средний | Privilege escalation: инструмент на Python для анализа привилегий в Linux системах. |
+| [LSE](./tools/lse.md) | Средний | Privilege escalation: популярный инструмент для автоматизированного перечисления Linux систем. |
+| [linenum.sh](./tools/linenum.md) | Средний | Privilege escalation: скрипт для поиска эксплойтов в Linux системах. |
 | [Gobuster / Dirbuster / ffuf](./tools/gobuster-dirbuster-ffuf.md) | Средний | Разведка: поиск скрытых файлов/путей на веб-сервере, поиск поддоменов. |
 | [Wappalyzer / WhatWeb](./tools/wappalyzer-whatweb.md) | Средний | Веб-анализ: определение используемых технологий на сайте (CMS, фреймворки). |
 | [Wayback Machine](./tools/wayback-machine.md) | Средний | OSINT: поиск старых версий сайтов и удаленного контента в веб-архивах. |
