@@ -73,6 +73,7 @@
 | Беспроводные сети | Средний | [Атака деаутентификации Wi-Fi](./topics/wifi-deauthentication-attack.md) | Высокий |
 | Беспроводные сети | Средний | [Атака Man-in-the-Middle (MITM)](./topics/man-in-the-middle-attack.md) | Высокий |
 | Беспроводные сети | Продвинутый | [Подмена DNS (DNS Spoofing)](./topics/dns-spoofing.md) | Высокий |
+| Беспроводные сети | Продвинутый | [Атаки на локальные сети](./topics/local-network-attacks.md) | Высокий |
 | Беспроводные сети | Средний | [Выбор Wi-Fi адаптеров для пентестинга](./topics/wifi-adapter-selection.md) | Средний |
 | OSINT и разведка | Средний | [Поиск email-адресов (Email Enumeration)](./topics/email-enumeration.md) | Средний |
 | OSINT и разведка | Средний | [Базы данных уязвимостей (CVE)](./topics/cve-databases.md) | Высокий |
@@ -165,6 +166,7 @@
 | [ADB](./tools/adb.md) | Средний | Android Debug Bridge: управление устройствами Android, установка приложений, доступ к данным для динамического анализа. |
 | [dex2jar](./tools/dex2jar.md) | Средний | Статический анализ: преобразование DEX файлов в JAR для анализа кода Android приложений. |
 | [Jadx](./tools/jadx.md) | Средний | Статический анализ: декомпиляция APK в читаемый Java код с графическим интерфейсом. |
+| [Bettercap](./tools/bettercap.md) | Продвинутый | Атаки на локальные сети: ARP spoofing, DNS spoofing, перехват трафика, обнаружение устройств в сети. |
 | [Gobuster / Dirbuster / ffuf](./tools/gobuster-dirbuster-ffuf.md) | Средний | Разведка: поиск скрытых файлов/путей на веб-сервере, поиск поддоменов. |
 | [Wappalyzer / WhatWeb](./tools/wappalyzer-whatweb.md) | Средний | Веб-анализ: определение используемых технологий на сайте (CMS, фреймворки). |
 | [Wayback Machine](./tools/wayback-machine.md) | Средний | OSINT: поиск старых версий сайтов и удаленного контента в веб-архивах. |
