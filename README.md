@@ -30,6 +30,18 @@
 | Сканирование и разведка | Средний | [Сканирование локальной сети](./topics/network-scanning.md) | Высокий |
 | Сканирование и разведка | Средний | [Захват и анализ сетевого трафика](./topics/network-traffic-capture.md) | Высокий |
 | OSINT и разведка | Средний | [OSINT (Open Source Intelligence)](./topics/osint.md) | Высокий |
+| OSINT и разведка | Средний | [Методология OSINT](./topics/osint-methodology.md) | Высокий |
+| OSINT и разведка | Средний | [Безопасность и анонимность в OSINT](./topics/osint-security.md) | Высокий |
+| OSINT и разведка | Средний | [Юридические аспекты OSINT](./topics/osint-legal-aspects.md) | Средний |
+| OSINT и разведка | Средний | [Организация работы с OSINT](./topics/osint-workflow-organization.md) | Высокий |
+| OSINT и разведка | Средний | [Работа с доказательствами в OSINT](./topics/evidence-handling.md) | Высокий |
+| OSINT и разведка | Основы | [Google поисковые операторы](./topics/google-search-operators.md) | Высокий |
+| OSINT и разведка | Средний | [Сбор информации о человеке](./topics/person-investigation.md) | Высокий |
+| OSINT и разведка | Средний | [Бизнес-разведка](./topics/business-intelligence.md) | Высокий |
+| OSINT и разведка | Средний | [Парсинг данных сайтов](./topics/website-parsing.md) | Средний |
+| OSINT и разведка | Средний | [Работа с метаданными медиафайлов](./topics/media-metadata-analysis.md) | Высокий |
+| OSINT и разведка | Средний | [Геолокация и анализ местоположения](./topics/geolocation-analysis.md) | Средний |
+| OSINT и разведка | Средний | [Подготовка OSINT отчётов](./topics/osint-reporting.md) | Высокий |
 | OSINT и разведка | Средний | [DNS анализ](./topics/dns-analysis.md) | Высокий |
 | OSINT и разведка | Средний | [Поиск уязвимых устройств в интернете](./topics/internet-device-scanning.md) | Высокий |
 | OSINT и разведка | Средний | [Анализ беспроводных сетей](./topics/wireless-network-analysis.md) | Средний |
