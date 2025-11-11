@@ -20,12 +20,14 @@
 | Основы пентестинга | Основы | [Подключение к цели через VPN](./topics/connecting-to-target-via-vpn.md) | Высокий |
 | Основы пентестинга | Основы | [Настройка виртуальных машин для пентестинга](./topics/virtual-machine-setup.md) | Высокий |
 | Основы пентестинга | Основы | [Настройка сетей в VirtualBox](./topics/virtualbox-networking.md) | Средний |
+| Основы пентестинга | Средний | [CTF (Capture The Flag) соревнования](./topics/ctf-competitions.md) | Высокий |
 | Анонимность и приватность | Средний | [Анонимность и автоматическая смена IP](./topics/anonymity-ip-rotation.md) | Высокий |
 | Анонимность и приватность | Средний | [Tor сеть](./topics/tor-network.md) | Высокий |
 | Анонимность и приватность | Средний | [Настройка прокси (SOCKS5)](./topics/proxy-socks5.md) | Высокий |
 | Анонимность и приватность | Средний | [DNS утечки (DNS Leak)](./topics/dns-leak.md) | Средний |
 | Сканирование и разведка | Основы | [Сканирование портов (port scanning)](./topics/port-scanning.md) | Высокий |
 | Сканирование и разведка | Средний | [Полное сканирование портов](./topics/full-port-scanning.md) | Средний |
+| Сканирование и разведка | Средний | [Сканирование локальной сети](./topics/network-scanning.md) | Высокий |
 | OSINT и разведка | Средний | [OSINT (Open Source Intelligence)](./topics/osint.md) | Высокий |
 | OSINT и разведка | Средний | [Поиск уязвимых устройств в интернете](./topics/internet-device-scanning.md) | Высокий |
 | OSINT и разведка | Средний | [Анализ беспроводных сетей](./topics/wireless-network-analysis.md) | Средний |
@@ -35,6 +37,7 @@
 | OSINT и разведка | Средний | [Поиск исходного кода в репозиториях](./topics/source-code-search.md) | Средний |
 | Веб-безопасность | Основы | [Просмотр исходного кода страниц](./topics/source-code-analysis.md) | Высокий |
 | Веб-безопасность | Основы | [Local File Inclusion (LFI)](./topics/local-file-inclusion.md) | Высокий |
+| Веб-безопасность | Средний | [Поиск конфигурационных файлов](./topics/config-files-discovery.md) | Высокий |
 | Веб-безопасность | Средний | [XSS (Cross-Site Scripting)](./topics/xss-vulnerability.md) | Высокий |
 | Веб-безопасность | Средний | [SQL Injection](./topics/sql-injection.md) | Высокий |
 | Веб-безопасность | Средний | [CSRF (Cross-Site Request Forgery)](./topics/csrf-vulnerability.md) | Высокий |
@@ -63,9 +66,11 @@
 | DevOps | Средний | [Облачная инфраструктура](./topics/cloud-infrastructure.md) | Средний |
 | Доступ и эксплуатация | Средний | [Чтение приватных ключей (SSH)](./topics/ssh-private-key-reading.md) | Средний |
 | Доступ и эксплуатация | Средний | [Взлом passphrase ключей](./topics/ssh-passphrase-cracking.md) | Средний |
+| Доступ и эксплуатация | Средний | [Доступ через FTP](./topics/ftp-access.md) | Средний |
 | Доступ и эксплуатация | Продвинутый | [Проброс портов (port forwarding/tunneling)](./topics/port-forwarding.md) | Высокий |
 | Доступ и эксплуатация | Продвинутый | [Эксплуатация CI/CD систем (Jenkins)](./topics/jenkins-exploitation.md) | Высокий |
 | Доступ и эксплуатация | Продвинутый | [Работа с эксплойтами в Metasploit](./topics/metasploit-exploitation.md) | Высокий |
+| Доступ и эксплуатация | Продвинутый | [Компиляция эксплойтов](./topics/exploit-compilation.md) | Высокий |
 | Privilege Escalation | Средний | [Поиск SUID-бинарников](./topics/suid-binaries.md) | Высокий |
 | Privilege Escalation | Средний | [Enumeration с помощью скриптов (LinPEAS)](./topics/linpeas-enumeration.md) | Высокий |
 | Privilege Escalation | Продвинутый | [Анализ бинарников и path hijacking](./topics/binary-analysis-path-hijacking.md) | Высокий |
@@ -78,6 +83,7 @@
 | Инструмент | Уровень | Где применять |
 |------------|---------|---------------|
 | [Nmap](./tools/nmap.md) | Основы | Разведка: обнаружение открытых портов и сервисов на цели. |
+| [Netdiscover](./tools/netdiscover.md) | Средний | Разведка: сканирование локальной сети для обнаружения активных хостов и их IP-адресов. |
 | [SQLite Browser / sqlite3](./tools/sqlite.md) | Средний | Анализ баз данных: извлечение хэшей, пользователей из .db файлов. |
 | [Hashcat / John the Ripper](./tools/hashcat-john.md) | Средний | Взлом паролей: брутфорс SHA-1 хэшей или passphrase от SSH-ключей. |
 | [Burp Suite](./tools/burp-suite.md) | Продвинутый | Веб-эксплуатация: изменение POST/GET запросов, поиск уязвимостей в формах, брутфорс логинов, анализ LFI. |
