@@ -142,6 +142,12 @@
 | Privilege Escalation | Продвинутый | [Эксплойты ядра](./topics/kernel-exploits.md) | Высокий |
 | Privilege Escalation | Продвинутый | [Псевдо-эксплойты (Sudo Exploits)](./topics/sudo-exploits.md) | Высокий |
 | Privilege Escalation | Продвинутый | [SUID-атаки](./topics/suid-attacks.md) | Высокий |
+| Privilege Escalation | Продвинутый | [Повышение привилегий в Windows](./topics/windows-privilege-escalation.md) | Высокий |
+| Privilege Escalation | Средний | [Перечисление систем Windows](./topics/windows-enumeration.md) | Высокий |
+| Privilege Escalation | Продвинутый | [Олицетворение токенов](./topics/token-impersonation.md) | Высокий |
+| Privilege Escalation | Продвинутый | [Картофельные атаки](./topics/potato-attacks.md) | Высокий |
+| Privilege Escalation | Средний | [Альтернативные потоки данных](./topics/alternate-data-streams.md) | Высокий |
+| Privilege Escalation | Продвинутый | [Повышение привилегий через WSL](./topics/wsl-privilege-escalation.md) | Высокий |
 | Privilege Escalation | Средний | [Поиск SUID-бинарников](./topics/suid-binaries.md) | Высокий |
 | Privilege Escalation | Средний | [Enumeration с помощью скриптов (LinPEAS)](./topics/linpeas-enumeration.md) | Высокий |
 | Privilege Escalation | Продвинутый | [Анализ бинарников и path hijacking](./topics/binary-analysis-path-hijacking.md) | Высокий |
@@ -188,6 +194,12 @@
 | [Linuxprivchecker](./tools/linuxprivchecker.md) | Средний | Privilege escalation: инструмент на Python для анализа привилегий в Linux системах. |
 | [LSE](./tools/lse.md) | Средний | Privilege escalation: популярный инструмент для автоматизированного перечисления Linux систем. |
 | [linenum.sh](./tools/linenum.md) | Средний | Privilege escalation: скрипт для поиска эксплойтов в Linux системах. |
+| [WinPEAS](./tools/winpeas.md) | Средний | Privilege escalation: автоматизированное перечисление Windows систем для поиска уязвимостей. |
+| [Watson](./tools/watson.md) | Средний | Privilege escalation: инструмент для проверки уязвимостей в Windows системах. |
+| [Sherlock](./tools/sherlock.md) | Средний | Privilege escalation: инструмент для поиска уязвимостей и перечисления в Windows. |
+| [PowerUp](./tools/powerup.md) | Средний | Privilege escalation: PowerShell скрипт для поиска уязвимостей в Windows системах. |
+| [Jaws](./tools/jaws.md) | Средний | Privilege escalation: инструмент для проверки уязвимостей в Windows системах. |
+| [Windows Exploit Suggester](./tools/windows-exploit-suggester.md) | Средний | Privilege escalation: программа на Python для поиска эксплойтов для Windows. |
 | [Gobuster / Dirbuster / ffuf](./tools/gobuster-dirbuster-ffuf.md) | Средний | Разведка: поиск скрытых файлов/путей на веб-сервере, поиск поддоменов. |
 | [Wappalyzer / WhatWeb](./tools/wappalyzer-whatweb.md) | Средний | Веб-анализ: определение используемых технологий на сайте (CMS, фреймворки). |
 | [Wayback Machine](./tools/wayback-machine.md) | Средний | OSINT: поиск старых версий сайтов и удаленного контента в веб-архивах. |
